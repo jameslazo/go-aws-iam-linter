@@ -1,0 +1,2 @@
+# AWS IAM POLICY LINTER
+This is an AWS IAM policy (JSON) linter written in Go to identify and lint overly persmissive IAM policies. Often provisioning resources through Infrastrucure as Code with Terraform, I needed a tool to perform sanity checks on JSON-formatted IAM policies before provisioning. This CLI tool builds on my experience using Go applications in dev containers for full CI/CD pipeline workflows.
